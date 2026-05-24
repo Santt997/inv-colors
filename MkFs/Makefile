@@ -45,6 +45,9 @@ update:
 
 release: build check upload
 
+clean:
+	cd $(ROOT_DIR) && rm -rf dist build *.egg-info
+
 delete:
 	@echo "🧹 Rm env..."
 	$(MAMBA) env remove -n $(ENV_NAME) -y
