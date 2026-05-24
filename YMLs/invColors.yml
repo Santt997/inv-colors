@@ -1,0 +1,8 @@
+name: invColors
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.13 # latest stable version of python 4pymupdf 1.27.2.2 a 9/4/26
+  - ipykernel=6.29.5
+  - pymupdf=1.27.2.2 # latest stable version of pymupdf a 9/4/26
+  - pillow=11.3.0
